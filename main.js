@@ -7,14 +7,8 @@ var app = http.createServer(function(request,response){
     var queryData = url.parse(_url, true).query;
     console.log(queryData.fname);
     console.log(queryData.lname);
-    if(_url == '/'){
-      _url = '/index.html';
-    }
-    if(_url == '/favicon.ico'){
-      response.writeHead(404);
-    }
-    response.writeHead(200);
-    response.end(fs.readFileSync(__dirname + _url));
+
+    return queryData.fname+queryData.lname
 
 });
 app.listen(3000);
