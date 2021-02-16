@@ -1,0 +1,55 @@
+h1{
+  font-size: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  border-bottom:1px solid black;
+
+}
+
+p{
+display: inline-table;
+width: 48%;
+margin: 0;
+padding-top: 16px;
+padding-bottom: 16px;
+font-size: 15px;
+}
+
+p img{
+  display: block;
+  width: 100%;
+}
+
+.subject{
+  display: block;
+  text-align:center;
+  font-size: 25px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+.mainTitle{
+  display: block;
+  font-size: 20px;
+  background-color: skyblue;
+  font-weight: bold;
+}
+
+.subTitle{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0080ff;
+}
+
+.left{
+  padding-left: 1%;
+  border-right:1px solid black;
+}
+
+.right{
+  padding-right: 1%;
+  border-left:1px solid black;
+}
