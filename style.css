@@ -91,6 +91,9 @@ th{
 .itemTableMain{
 	width:50%
 }
+#itemImg{
+	margin-top: 21px; 
+}
 .ProfileNone{
 	background-color: #f2f2f2;
 }
@@ -1883,9 +1886,6 @@ ul.shortcode-archive li {
 	}
 }
 @media screen and (max-width:1023px) {
-	#itemImg{
-		#itemImg.class:"aligncenter"
-	}
 	.itemTableMain{
 		width:100%
 	}
