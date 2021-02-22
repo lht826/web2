@@ -84,14 +84,19 @@ a:hover,a:active,a:focus {
 a img {
 	border: 0;
 }
-th, td {
+th{
   font-weight: bold;
 }
 /*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/
-.itemTable{
+
+table.itemTableMain{
 	width:50%
 }
 .strikingPowerSec{
+	letter-spacing: 0px;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
 	margin-top: 0
 }
 .container {
@@ -1860,6 +1865,15 @@ ul.shortcode-archive li {
 	}
 }
 @media screen and (max-width:1023px) {
+	#itemImg{
+		#itemImg.class:"aligncenter"
+	}
+	.itemTableMain{
+		width:100%
+	}
+	.itemTableSub{
+		width:100%
+	}
 	#primary {
 			padding-top:1em;
 	}
@@ -1926,9 +1940,7 @@ ul.shortcode-archive li {
 	.widget_search input[type="search"] {
 			width: 30%;
 	}
-	.itemTable{
-		width:100%
-	}
+
 }
 /*--------------------------------------------------------------17.0 Print--------------------------------------------------------------*/
 @media print {
