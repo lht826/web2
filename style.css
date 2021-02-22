@@ -92,7 +92,7 @@ th{
 	width:50%
 }
 #itemImg{
-	margin-top: 21px; 
+	margin-top: 21px;
 }
 .ProfileNone{
 	background-color: #f2f2f2;
@@ -713,6 +713,10 @@ a:active,a:focus {
 /*--------------------------------------------------------------11.0 Site Content--------------------------------------------------------------*/
 #primary,#secondary {
 	padding-top: 2em;
+}
+#privateWeapon {
+		border-top:1px solid #404040;
+		border-bottom:1px solid #404040;
 }
 /*--------------------------------------------------------------11.1 Posts and pages--------------------------------------------------------------*/
 .sticky {
@@ -1897,6 +1901,9 @@ ul.shortcode-archive li {
 	}
 	#secondary {
 			border-top:1px solid #404040;
+	}
+	#privateWeapon {
+			border:none;
 	}
 	.menu-toggle,.main-navigation.toggled .nav-menu {
 			display:block;
