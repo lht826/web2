@@ -91,6 +91,24 @@ th{
 .itemTableMain{
 	width:50%
 }
+.ProfileNone{
+	background-color: #f2f2f2;
+}
+.ProfileFire{
+	background-color: #ffe6e6;
+}
+.ProfileWater{
+	background-color: #e6e6ff;
+}
+.ProfileLight{
+	background-color: #ffffe6;
+}
+.ProfileLand{
+	background-color: #edd8c4;
+}
+.ProfileDark{
+	background-color: #e6ccff;
+}
 .strikingPowerSec{
 	font-family: 'Oswald';
 	letter-spacing: 0px;
