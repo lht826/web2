@@ -88,11 +88,11 @@ th{
   font-weight: bold;
 }
 /*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/
-
-table.itemTableMain{
+.itemTableMain{
 	width:50%
 }
 .strikingPowerSec{
+	font-family: 'Oswald';
 	letter-spacing: 0px;
 	font-weight: bold;
 	font-size: 30px;
