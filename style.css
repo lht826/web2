@@ -56,6 +56,7 @@ html {
 body {
 	background:#fff;
 }
+
 article,aside,details,figcaption,figure,footer,header,main,nav,section {
 	display:block;
 }
