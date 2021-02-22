@@ -83,6 +83,9 @@ a:hover,a:active,a:focus {
 a img {
 	border: 0;
 }
+th, td {
+  font-weight: bold;
+}
 /*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/
 .container {
 	margin:0 20px;
