@@ -87,6 +87,12 @@ th, td {
   font-weight: bold;
 }
 /*--------------------------------------------------------------2.0 Responsive Grid--------------------------------------------------------------*/
+.itemTable{
+	width:50%
+}
+.strikingPowerSec{
+	margin-top: 0
+}
 .container {
 	margin:0 20px;
 }
@@ -1918,6 +1924,9 @@ ul.shortcode-archive li {
 	}
 	.widget_search input[type="search"] {
 			width: 30%;
+	}
+	.itemTable{
+		width:100%
 	}
 }
 /*--------------------------------------------------------------17.0 Print--------------------------------------------------------------*/
