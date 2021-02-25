@@ -1897,6 +1897,12 @@ ul.shortcode-archive li {
 	.itemTableSub{
 		width:100%
 	}
+	#itemImg{
+		clear:both;
+		display:block;
+		margin: 0 auto;
+		float:none;
+	}
 	#primary {
 			padding-top:1em;
 	}
