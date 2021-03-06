@@ -2359,10 +2359,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.arenaMap{
-	display: inline;
-	width: 50%;
-}
 @media screen and (max-width: 770px) {
 	.mobile{
 		display: inline-block;
@@ -2385,4 +2381,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .PvPHeroList h4,p{
 	margin-bottom: 0;
+}
+.arenaPickRate{
+	padding-bottom: 20px;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+.arenaPickRate h4{
+	text-align: center;
 }
