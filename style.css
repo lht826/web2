@@ -2349,9 +2349,6 @@ h1, h2, h3, h4, h5, h6 {
 #nevItem2{
 	display: none;
 }
-.mobile{
-	display: none;
-}
 @media screen and (max-width: 1023px) {
 	#nevItem1{
 		display: none;
@@ -2368,14 +2365,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 770px) {
 	.mobile{
-		display: block;
+		display: inline-block;
 	}
 	.computer{
 		display: none;
 	}
 }
 @media screen and (max-width: 500px){
-	.PvPportraits{
+	.mobile{
 		width: 30%;
 	}
 }
