@@ -2359,11 +2359,20 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+#arenaPickRateProperty1{
+	display: none;
+}
 @media screen and (max-width: 770px) {
 	.mobile{
 		display: inline-block;
 	}
 	.computer{
+		display: none;
+	}
+	#arenaPickRateProperty1{
+		display: block;
+	}
+	#arenaPickRateProperty2{
 		display: none;
 	}
 }
