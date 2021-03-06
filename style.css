@@ -2409,3 +2409,27 @@ h1, h2, h3, h4, h5, h6 {
 .arenaPickRate h4{
 	text-align: center;
 }
+.PvPPickRate{
+	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 29%;
+	text-align: center;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+@media screen and (max-width: 1000px) {
+	.PvPPickRate{
+		display: none;
+	}
+}
+#leftPickRate{
+
+}
+#rightPickRate{
+
+}
+#centerPickRate{
+	width: 29%;
+	margin-left: 109px;
+}
