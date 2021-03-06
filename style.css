@@ -2376,3 +2376,13 @@ h1, h2, h3, h4, h5, h6 {
 		width: 30%;
 	}
 }
+.arenaMapTxt{
+	padding-top: 20px;
+}
+.PvPHeroList{
+	display: inline-block;
+	width: 19%;
+}
+.PvPHeroList h4,p{
+	margin-bottom: 0;
+}
