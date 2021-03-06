@@ -2382,23 +2382,22 @@ h1, h2, h3, h4, h5, h6 {
 		display: inline;
 	}
 }
+.PvPHeroList{
+	display: inline-block;
+	width: 19%;
+}
 @media screen and (max-width: 500px){
 	.mobile{
 		width: 30%;
+	}
+	.PvPHeroList{
+		width: 24%;
 	}
 }
 .arenaMapTxt{
 	padding-top: 20px;
 }
-.PvPHeroList{
-	display: inline-block;
-	width: 19%;
-}
-@media screen and (max-width: 412px){
-	.PvPHeroList{
-		width: 24%;
-	}
-}
+
 .PvPHeroList h4,p{
 	margin-bottom: 0;
 }
