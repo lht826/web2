@@ -2362,6 +2362,9 @@ h1, h2, h3, h4, h5, h6 {
 #arenaPickRateProperty1{
 	display: none;
 }
+.mobile,.computer{
+	border: 3px solid;
+}
 .mobileEnter{
 	display: none;
 }
@@ -2435,4 +2438,18 @@ h1, h2, h3, h4, h5, h6 {
 #centerPickRate{
 	width: 29%;
 	margin-left: 109px;
+}
+.colosseum1st{
+}
+.colosseum1stImg{
+	border: 3px solid;
+	padding: 0;
+	margin: 0;
+	width: 24%;
+}
+.PvPImg{
+		border: 3px solid;
+}
+.arena1st{
+	text-align: center;
 }
