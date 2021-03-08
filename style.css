@@ -2384,6 +2384,12 @@ h1, h2, h3, h4, h5, h6 {
 	.mobileEnter{
 		display: inline;
 	}
+	.wpcmsdev-columns{
+		border-top: 1px solid;
+	}
+	.arena1stImg{
+		width: 32%;
+	}
 }
 .PvPHeroList{
 	display: inline-block;
@@ -2454,5 +2460,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .arena1stImg{
 	border: 3px solid;
-	width: 32%;
 }
