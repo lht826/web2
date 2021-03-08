@@ -760,6 +760,9 @@ a:active,a:focus {
 .entry-content p:last-child {
 	margin-bottom:0;
 }
+.entry-content p{
+	margin-bottom: 20px;
+}
 a.more-link {
 	position:relative;
 	text-decoration:none;
