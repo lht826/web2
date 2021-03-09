@@ -2435,7 +2435,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-.pickRatePvP{
+.PvPPickRate{
 	display: inline-block;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -2446,7 +2446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 1000px) {
-	.pickRatePvP{
+	.PvPPickRate{
 		display: none;
 	}
 }
