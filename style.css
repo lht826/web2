@@ -2380,6 +2380,7 @@ h1, h2, h3, h4, h5, h6 {
 		display: block;
 		width: 100%;
 	}
+}
 @media screen and (max-width: 770px) {
 	.mobile{
 		display: inline-block;
@@ -2433,7 +2434,8 @@ h1, h2, h3, h4, h5, h6 {
 .arenaPickRate h4{
 	text-align: center;
 }
-.PvPPickRate{
+
+.pickRatePvP{
 	display: inline-block;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -2442,16 +2444,11 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 }
+
 @media screen and (max-width: 1000px) {
-	.PvPPickRate{
+	.pickRatePvP{
 		display: none;
 	}
-}
-#leftPickRate{
-
-}
-#rightPickRate{
-
 }
 #centerPickRate{
 	width: 29%;
