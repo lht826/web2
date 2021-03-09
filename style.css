@@ -757,11 +757,11 @@ a:active,a:focus {
 .entry-content {
 	white-space:normal;
 }
-.entry-content p:last-child {
-	margin-bottom:0;
-}
 .entry-content p{
 	margin-bottom: 20px;
+}
+.entry-content p:last-child {
+	margin-bottom:0;
 }
 a.more-link {
 	position:relative;
@@ -2371,7 +2371,15 @@ h1, h2, h3, h4, h5, h6 {
 .mobileEnter{
 	display: none;
 }
+.indexPage .hentry{
+	display: inline-block;
+	width: 33%;
+}
 @media screen and (max-width: 770px) {
+	.indexPage .hentry{
+		display: block;
+		width: 100%;
+	}
 	.mobile{
 		display: inline-block;
 	}
